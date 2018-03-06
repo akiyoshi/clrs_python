@@ -16,11 +16,11 @@ def merge(A, p, q, r):
 
 	for k in range(p,r+1):
 		if i > L.length:
-			A[k:r] = R[j:]
+			A[k:] = R[j:]
 			break
 
 		if j > R.length:
-			A[k:r] = L[i:]
+			A[k:] = L[i:]
 			break
 
 
